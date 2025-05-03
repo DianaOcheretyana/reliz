@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ручні вироби - Кошик</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ручні вироби</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="products.html">Товари</a></li>
+                    <li><a href="cart.html" class="active">Кошик</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Ваш кошик</h2>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="images/product1.jpg" alt="В'язаний светр">
+                <div class="item-details">
+                    <h3>В'язаний светр</h3>
+                    <p>850 грн</p>
+                    <div class="quantity-controls">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                    <button class="remove-item">Видалити</button>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="images/product3.jpg" alt="Дерев'яна іграшка">
+                <div class="item-details">
+                    <h3>Дерев'яна іграшка</h3>
+                    <p>250 грн</p>
+                    <div class="quantity-controls">
+                        <button>-</button>
+                        <span>2</span>
+                        <button>+</button>
+                    </div>
+                    <button class="remove-item">Видалити</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h3>Разом до сплати: 1350 грн</h3>
+            <button class="checkout-button">Оформити замовлення</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Ручні вироби. Усі права захищені.</p>
+        </div>
+    </footer>
+</body>
+</html>

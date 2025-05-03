@@ -1,0 +1,102 @@
+/* Стилі для сторінки кошика */
+main h2 {
+    text-align: center;
+    color: #ff6b8b;
+    margin-bottom: 30px;
+}
+
+.cart-items {
+    margin-bottom: 30px;
+}
+
+.cart-item {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(255, 133, 162, 0.2);
+    align-items: center;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h3 {
+    color: #ff6b8b;
+    margin-bottom: 5px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.quantity-controls button {
+    background-color: #ff85a2;
+    color: white;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-controls span {
+    margin: 0 10px;
+}
+
+.remove-item {
+    background-color: #ffcccc;
+    color: #ff6b8b;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-item:hover {
+    background-color: #ffb3b3;
+}
+
+.cart-summary {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(255, 133, 162, 0.2);
+    text-align: right;
+}
+
+.cart-summary h3 {
+    color: #ff6b8b;
+    margin-bottom: 15px;
+}
+
+.checkout-button {
+    background-color: #ff85a2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.checkout-button:hover {
+    background-color: #ff6b8b;
+}
