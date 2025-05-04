@@ -1,0 +1,60 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "image": "image/photo_5239994787455694015_y.jpg",
+        "alt": "Силянка",
+        "name": "Силянка",
+        "price": 850,
+        "currency": "грн"
+      },
+      {
+        "id": 2,
+        "image": "image/photo_5239994787455694016_y.jpg",
+        "alt": "Силянка",
+        "name": "Силянка",
+        "price": 850,
+        "currency": "грн"
+      },
+      {
+        "id": 3,
+        "image": "image/photo_5239994787455694017_y.jpg",
+        "alt": "Силянка",
+        "name": "Силянка",
+        "price": 850,
+        "currency": "грн"
+      },
+      {
+        "id": 4,
+        "image": "image/photo_5239994787455694018_y.jpg",
+        "alt": "Силянка",
+        "name": "Силянка",
+        "price": 400,
+        "currency": "грн"
+      },
+      {
+        "id": 5,
+        "image": "image/photo_5239994787455694027_y.jpg",
+        "alt": "Гердан",
+        "name": "Гердан",
+        "price": 500,
+        "currency": "грн"
+      },
+      {
+        "id": 6,
+        "image": "image/photo_5239994787455694028_y.jpg",
+        "alt": "Силянка",
+        "name": "Силянка",
+        "price": 400,
+        "currency": "грн"
+      }
+      {
+        "id": 7,
+        "image": "image/photo_5239994787455694028_y.jpg",
+        "alt": "Силянка",
+        "name": "Силянка",
+        "price": 400,
+        "currency": "грн"
+      }
+    ]
+  }
